@@ -15,7 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=3" />
     <script src="script.js" defer></script>
   </head>
   <body>
@@ -87,10 +87,10 @@
       <section class="project-strip" aria-label="Proyectos destacados">
         <div class="section-shell strip-grid">
           <p class="strip-title">En estudio</p>
-          <a href="#proyecto-truco"><span>01</span> Agentes estratégicos y bluffing</a>
-          <a href="#proyecto-rag"><span>02</span> La IA en salud cardiovascular </a>
-          <a href="#proyecto-dinvis"><span>03</span> Adaptadores dinámicos de visión </a>
-          <a href="#proyecto-fatm"><span>03</span> Modelos generativos en física atmosférica </a>
+          <a href="proyectos/truco/"><span>01</span> Agentes estratégicos y bluffing</a>
+          <a href="proyectos/asistentes-especializados/"><span>02</span> IA en salud cardiovascular</a>
+          <a href="proyectos/asistencia-visual/"><span>03</span> Adaptadores dinámicos de visión</a>
+          <a href="proyectos/fisica-atmosferica/"><span>04</span> Modelos generativos en física atmosférica</a>
         </div>
       </section>
 
@@ -144,6 +144,7 @@
                 <h3>Estrategia y bluffing en Truco</h3>
                 <p>Diseño de un entorno reproducible para estudiar, medir y entrenar comportamiento estratégico y bluffing en agentes artificiales.</p>
                 <ul><li>Simulación multiagente</li><li>Evaluación de estrategias</li><li>Aprendizaje por refuerzo</li></ul>
+                <div class="project-meta"><span>Dirección: Daniela Rim</span><a class="project-link" href="proyectos/truco/">Ver proyecto <span aria-hidden="true">→</span></a></div>
               </div>
               <div class="project-glyph glyph-cards" aria-hidden="true"><span></span><span></span><span></span></div>
             </article>
@@ -155,6 +156,7 @@
                 <h3>Asistentes especializados</h3>
                 <p>Investigación y desarrollo de asistentes basados en recuperación de información para asistir a pacientes con interés en salud cardiovascular.</p>
                 <ul><li>RAG</li><li>Modelos de lenguaje</li><li>Evaluación factual</li></ul>
+                <div class="project-meta"><span>Dirección: Daniela Rim</span><a class="project-link" href="proyectos/asistentes-especializados/">Ver proyecto <span aria-hidden="true">→</span></a></div>
               </div>
               <div class="project-glyph glyph-nodes" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
             </article>
@@ -166,17 +168,19 @@
                 <h3>Herramientas de asistencia potenciadas </h3>
                 <p> Desarrollo de sistemas de asistencia personalizada a personas con escotomas centrales.</p>
                 <ul><li>Salud</li><li>Desarrollo</li><li>Asistencia</li></ul>
+                <div class="project-meta"><span>Dirección: Daniela Rim</span><a class="project-link" href="proyectos/asistencia-visual/">Ver proyecto <span aria-hidden="true">→</span></a></div>
               </div>
               <div class="project-glyph glyph-rings" aria-hidden="true"><span></span><span></span><span></span></div>
             </article>
 
             <article id="proyecto-fatm" class="project-card reveal">
-              <div class="project-number">02</div>
+              <div class="project-number">04</div>
               <div class="project-content">
                 <p class="project-tag">Física atmosférica · En desarrollo</p>
                 <h3>Colaboración</h3>
                 <p>Investigación y desarrollo  de  modelos generativos para aplicaciones en física atmosférica.</p>
                 <ul><li>Difusión</li><li>Modelos de lenguaje</li><li>Evaluación factual</li></ul>
+                <div class="project-meta"><span>Dirección: Daniela Rim</span><a class="project-link" href="proyectos/fisica-atmosferica/">Ver proyecto <span aria-hidden="true">→</span></a></div>
               </div>
               <div class="project-glyph glyph-nodes" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
             </article>
@@ -187,17 +191,22 @@
 
       <section id="personas" class="section section-shell people-section">
         <div class="section-heading reveal"><p class="eyebrow">Personas</p><h2>La investigación se construye en equipo.</h2></div>
-        <div class="people-grid">
-          <article class="person-card person-lead reveal">
+        <div class="people-groups">
+          <div class="people-group reveal">
+            <div class="people-group-heading"><p class="eyebrow">Encargada del laboratorio</p><p>Dirección académica y coordinación de las líneas de investigación.</p></div>
+            <article class="person-card person-lead">
             <div class="portrait-placeholder" aria-hidden="true"><span>DR</span></div>
-            <div><p class="role">Investigación</p><h3>Dra. Daniela N. Rim</h3><p>Encargada de lab de CUSPIA UP.</p></div>
-          </article>
-          <article class="join-card reveal">
-            <p class="eyebrow">Equipo en formación</p>
-            <h3>Investigadores, estudiantes y colaboradores.</h3>
-            <p>Activos</p>
-            <a class="text-link" href="#contacto">Contactar al centro <span aria-hidden="true">↗</span></a>
-          </article>
+              <div><p class="role">Encargada de CUSPIA UP</p><h3>Dra. Daniela N. Rim</h3><p>Responsable del laboratorio y de la coordinación de sus proyectos de investigación.</p></div>
+            </article>
+          </div>
+          <div class="people-group reveal">
+            <div class="people-group-heading"><p class="eyebrow">Integrantes activos</p><p>Investigadores y colaboradores que participan de las líneas en curso.</p></div>
+            <article class="team-empty"><span>Equipo en formación</span><p>Los próximos integrantes activos aparecerán aquí junto con los proyectos en los que investigan.</p></article>
+          </div>
+          <div class="people-group reveal">
+            <div class="people-group-heading"><p class="eyebrow">Estudiantes</p><p>Estudiantes que se forman y desarrollan trabajo de investigación en el centro.</p></div>
+            <article class="team-empty"><span>Nuevas incorporaciones</span><p>¿Te interesa investigar en CUSPIA? Escribinos para conocer las líneas abiertas.</p><a class="text-link" href="#contacto">Contactar al centro <span aria-hidden="true">↗</span></a></article>
+          </div>
         </div>
       </section>
 
